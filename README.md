@@ -1,3 +1,6 @@
+> **Renamed 2026-07-10 (ADR-2607102200):** `kotoba-lang/kami-script-runtime` → `kotoba-lang/kami-input-map`.
+> Old GitHub URLs redirect. See root ADR for the full authority/deps map.
+
 # kami-script-runtime (input_map only)
 
 This repo is a **deliberately partial** restoration — it ports exactly one
