@@ -1,3 +1,7 @@
+> **Renamed 2026-07-10 (ADR-2607102200 addendum):**
+> `kami-script-runtime` → `kami-input-map` → **`kami-engine-input-map`**
+> (`kami-engine-*` family; device-neutral stick/deadzone, not the full WASM host).
+
 > **Renamed 2026-07-10 (ADR-2607102200):** `kotoba-lang/kami-script-runtime` → `kotoba-lang/kami-input-map`.
 > Old GitHub URLs redirect. See root ADR for the full authority/deps map.
 
