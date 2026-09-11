@@ -42,7 +42,7 @@ abstract `kami:engine/input` surface (`(axis "MoveX")`, `(key-pressed?
 platform deps — just arithmetic and set operations. That makes it the one
 piece of this otherwise-substrate crate worth porting.
 
-Ported to [`src/input_map.cljc`](src/input_map.cljc) (namespace
+Ported to [`src/input_map.cljk`](src/input_map.cljk) (namespace
 `input-map`), 1:1 with the original Rust:
 
 - **`stick` / `axes`** — port of `VirtualStick::new` / `VirtualStick::axes`.
@@ -58,12 +58,12 @@ Ported to [`src/input_map.cljc`](src/input_map.cljc) (namespace
   returns `[edges updated-detector]` rather than mutating in place, since
   CLJC favors immutable data over the original's `&mut self`.)
 
-Line count: `src/input_map.cljc` is ~140 lines (vs. ~185 lines in the
+Line count: `src/input_map.cljk` is ~140 lines (vs. ~185 lines in the
 original `input_map.rs`, doc comments included).
 
 ## Tests
 
-[`test/input_map_test.cljc`](test/input_map_test.cljc) ports every original
+[`test/input_map_test.cljk`](test/input_map_test.cljk) ports every original
 Rust `#[test]` 1:1 (`button_press_is_an_edge`,
 `button_edges_track_multiple_actions`, `stick_center_is_zero`,
 `stick_dead_zone_reads_zero`, `stick_full_right_is_plus_x`,
