@@ -74,7 +74,7 @@ namespace-loads smoke test.
 **10 tests, 21 assertions, 0 failures, 0 errors.**
 
 ```
-clojure -M:test
+kbb -M:test
 ```
 
 ## What's excluded (and won't be ported)
