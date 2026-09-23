@@ -3,7 +3,7 @@
   `#[cfg(test)] mod tests` (legacy Rust workspace deleted in
   kotoba-lang/kami-engine PR #82, recoverable at commit
   a8368f9c0d784dbc9d11e8fa8f407aa95c7ce4fa). See ADR-2607010930."
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [input-map :as im]))
 
 (defn- close? [a b]
