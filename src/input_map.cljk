@@ -39,7 +39,7 @@
   Both stick mappings produce an `[x y]` pair in `[-1, 1]` with **y up**
   (screen-y grows down, so it is negated), ready to drop into two named
   axes."
-  (:require [clojure.set :as set])
+  (:require [kotoba.lang.coll :as set])
   (:refer-clojure :exclude [update]))
 
 ;; ---------------------------------------------------------------------------
