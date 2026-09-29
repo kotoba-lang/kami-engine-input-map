@@ -24,7 +24,7 @@ zero-dependency portable `.cljc` — but only where a genuinely portable
 representation exists. `kami-script-runtime` as a whole does not qualify:
 `src/lib.rs`, `src/platform.rs`, and `src/bin/*` are the actual WASM host —
 they bind to `wasmtime`/`wasmi`, the filesystem, and native game-engine
-state. That is substrate, not logic, and this project's CLAUDE.md and
+state. That is substrate, not logic, and this project's AGENTS.md and
 standing ADR explicitly exclude it from restoration. **None of that is
 ported here, and none of it will be.**
 
