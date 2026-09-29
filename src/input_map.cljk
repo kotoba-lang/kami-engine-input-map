@@ -19,7 +19,7 @@
   host (wasmtime JIT, or wasmi when no JIT is available) that binds the
   `kami:engine/*` component-model imports to live Rust game-engine state.
   That is genuine substrate with no portable CLJC representation, and this
-  project's CLAUDE.md / ADR-2607010930 explicitly excludes it from
+  project's AGENTS.md / ADR-2607010930 explicitly excludes it from
   restoration. It is NOT ported here, and never will be.
 
   The game only ever asks the abstract `kami:engine/input` surface for
